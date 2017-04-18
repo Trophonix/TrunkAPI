@@ -42,6 +42,8 @@ If you're using Maven, you simply have to add my Maven repository and the VaultA
 ...
 </project>
 ```
+I've chosen to go with the same versioning system as Vault. The Trunk plugin will have 2 secondary numerals to represent updates (e.g. 1.10, 1.34), and the TrunkAPI will have just one secondary numeral which corresponds to the first one in the plugin versions. So, for Trunk 1.00-1.09, you use TrunpAPI 1.0. Trunk 1.2x = TrunkAPI 1.2, etc. The above example will always be updated to reflect the most recent API version.
+
 Now you should be ready to continue.
 
 ----
