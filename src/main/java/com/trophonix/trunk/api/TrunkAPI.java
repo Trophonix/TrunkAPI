@@ -29,7 +29,7 @@ public abstract class TrunkAPI {
      * @param api The economy to register
      * @throws APIRegisterException If the registration fails
      */
-    public void register(TrunkEconomy api) throws APIRegisterException {
+    public static void register(TrunkEconomy api) throws APIRegisterException {
         if (getAPI(TrunkEconomy.class) != null) {
             throw new APIRegisterException("Attempted to register a api of a type which is already registered!");
         }
@@ -44,7 +44,7 @@ public abstract class TrunkAPI {
      * @param api The permissions to register
      * @throws APIRegisterException If the registration fails
      */
-    public void register(TrunkPermissions api) throws APIRegisterException {
+    public static void register(TrunkPermissions api) throws APIRegisterException {
         if (getAPI(TrunkPermissions.class) != null) {
             throw new APIRegisterException("Attempted to register a api of a type which is already registered!");
         }
@@ -59,7 +59,7 @@ public abstract class TrunkAPI {
      * @param api The chat to register
      * @throws APIRegisterException If the registration fails
      */
-    public void register(TrunkChat api) throws APIRegisterException {
+    public static void register(TrunkChat api) throws APIRegisterException {
         if (getAPI(TrunkChat.class) != null) {
             throw new APIRegisterException("Attempted to register a api of a type which is already registered!");
         }
@@ -73,7 +73,7 @@ public abstract class TrunkAPI {
      * Unregister an API
      * @param api The api
      */
-    public void unregister(TrunkAPI api) {
+    public static void unregister(TrunkAPI api) {
         Bukkit.getServer().getServicesManager().unregister(api);
     }
 
@@ -81,7 +81,7 @@ public abstract class TrunkAPI {
      * Unregister all APIs registered by a plugin
      * @param plugin The plugin
      */
-    public void unregisterAll(Plugin plugin) {
+    public static void unregisterAll(Plugin plugin) {
         Bukkit.getServer().getServicesManager().unregisterAll(plugin);
     }
 
@@ -91,7 +91,7 @@ public abstract class TrunkAPI {
      * @param <T> The type of API
      * @return The API of type or null if one is not found
      */
-    public <T extends TrunkAPI> T getAPI(Class<T> clazz) {
+    public static <T extends TrunkAPI> T getAPI(Class<T> clazz) {
         RegisteredServiceProvider<T> rsp = Bukkit.getServer().getServicesManager().getRegistration(clazz);
         if (rsp != null) {
             return rsp.getProvider();
