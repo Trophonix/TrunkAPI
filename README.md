@@ -1,4 +1,4 @@
-#TrunkAPI: A New Abstraction Library for Spigot and Bukkit plugins
+# TrunkAPI: A New Abstraction Library for Spigot and Bukkit plugins
 
 #### If you are a server owner/user looking for the Spigot/Bukkit plugin, Trunk, [Click Here](https://github.com/Trophonix/Trunk). If you're a developer looking to support Trunk in your plugin, read on!
 
