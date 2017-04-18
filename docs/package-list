@@ -1,5 +1,6 @@
 com.trophonix.trunk.api
 com.trophonix.trunk.api.chat
 com.trophonix.trunk.api.economy
+com.trophonix.trunk.api.events
 com.trophonix.trunk.api.exceptions
 com.trophonix.trunk.api.permissions
