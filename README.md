@@ -1,18 +1,18 @@
 #TrunkAPI: A New Abstraction Library for Spigot and Bukkit plugins
 
-#####If you are a server owner/user looking for the Spigot/Bukkit plugin, Trunk, [Click Here](https://github.com/Trophonix/Trunk). If you're a developer looking to support Trunk in your plugin, read on!
+#### If you are a server owner/user looking for the Spigot/Bukkit plugin, Trunk, [Click Here](https://github.com/Trophonix/Trunk). If you're a developer looking to support Trunk in your plugin, read on!
 
 I love Vault. It's an extremely useful API for developers, and has had a massive effect on many types of plugins. However, as you can tell by the [Commit History](https://github.com/MilkBowl/VaultAPI/commits/master), it's gone a bit inactive. It uses out-of-date methods and generally just leaves a lot to be desired. So, I made something that I hope fixes those problems: Trunk.
 
-###Why Trunk?
+### Why Trunk?
 
 Trunk is designed by a developer, for developers. It has a lot of extra methods for developers to use when hooking into Trunk, and on the flip side, the extra methods redirect to others by default, so if you're making an economy or permissions plugin, you only need to override a few! It's simple and convenient for everyone. 
 
-###Okay, but why "Trunk"?
+### Okay, but why "Trunk"?
 
 At first, I was just trying to think of another word for Vault. I know, super original. Then, after I decided on "Trunk", I realized it had more meaning to the project than I first thought. Not only is it like a trunk of useful information, but it's also like a tree trunk - it forms a stable base on which people's awesome plugins can grow from.
 
-###Fine. I'm sold. What now?
+### Fine. I'm sold. What now?
 
 Well, as I said before, it's pretty simple!
 
