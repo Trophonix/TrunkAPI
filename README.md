@@ -2,7 +2,7 @@
 
 #### If you are a server owner/user looking for the Spigot/Bukkit plugin, Trunk, [Click Here](https://github.com/Trophonix/Trunk). If you're a developer looking to support Trunk in your plugin, read on!
 
-I love Vault. It's an extremely useful API for developers, and has had a massive effect on many types of plugins. However, as you can tell by the [Commit History](https://github.com/MilkBowl/VaultAPI/commits/master), it's gone a bit inactive. It uses out-of-date methods and generally just leaves a lot to be desired. So, I made something that I hope fixes those problems: Trunk.
+I love Vault. It's an extremely useful library for developers, and has had a massive effect on many types of plugins. However, as you can tell by the [Commit History](https://github.com/MilkBowl/VaultAPI/commits/master), it's gone a bit inactive. It uses out-of-date methods and generally just leaves a lot to be desired. So, I made something that I hope fixes those problems: Trunk.
 
 ### Why Trunk?
 
@@ -115,7 +115,7 @@ private boolean setupChat() {
 
 ---
 
-If you're making an economy or permissions plugin and are looking to provide access to data stored in your plugin to Trunk-supported plugins, that's relatively simple too!
+If you're making an economy or permissions plugin and are looking to provide access to data stored in your plugin to Trunk-supported plugins, that's simple too!
 
 You can see an example here: [TrunkExample](https://github.com/trophonix/TrunkExample)
 
