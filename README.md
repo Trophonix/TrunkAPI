@@ -101,7 +101,7 @@ That's it. **Your plugin will now work with both Trunk AND Vault chat/perms/econ
 
 2. **Use Bukkit service providers directly**
 
-If you're more inclined for the way Vault does it, you can do that too!
+If you prefer the way Vault does it, you can do that too!
 
 ```Java
 private boolean setupChat() {
