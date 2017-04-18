@@ -103,7 +103,7 @@ That's it. **Your plugin will now work with both Trunk AND Vault chat/perms/econ
 
 If you're more inclined for the way Vault does it, you can do that too!
 
-```
+```Java
 private boolean setupChat() {
     RegisteredServiceProvider<TrunkChat> rsp = Bukkit.getServer().getServicesManager().getRegistration(TrunkChat.class);
     if (rsp != null) {
