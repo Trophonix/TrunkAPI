@@ -10,7 +10,7 @@ Trunk is designed by a developer, for developers. It has a lot of extra methods 
 
 ### Okay, but why "Trunk"?
 
-At first, I was just trying to think of another word for Vault. I know, super original. Then, after I decided on "Trunk", I realized it had more meaning to the project than I first thought. Not only is it like a trunk of useful information, but it's also like a tree trunk - it forms a stable base on which people's awesome plugins can grow from.
+At first, I was just trying to think of another word for Vault. I know, super original. Then, after I decided on "Trunk", I realized it had more meaning to the project than I first thought. Not only is it like a trunk of useful information, but it's also like a tree trunk - it forms a stable base on which people's awesome plugins can grow and flourish.
 
 ### Fine. I'm sold. What now?
 
