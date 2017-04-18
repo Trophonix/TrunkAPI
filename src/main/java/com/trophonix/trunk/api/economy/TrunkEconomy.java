@@ -13,7 +13,7 @@ import java.util.UUID;
  * Created by Lucas on 4/12/17.
  */
 @SuppressWarnings("WeakerAccess")
-public abstract class TrunkEconomy implements TrunkAPI {
+public abstract class TrunkEconomy extends TrunkAPI {
 
     private final Plugin plugin;
 

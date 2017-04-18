@@ -14,7 +14,7 @@ import java.util.UUID;
  * Created by Lucas on 4/12/17.
  */
 @SuppressWarnings("WeakerAccess")
-public abstract class TrunkPermissions implements TrunkAPI {
+public abstract class TrunkPermissions extends TrunkAPI {
 
     private final Plugin plugin;
 
